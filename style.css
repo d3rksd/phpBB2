@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    font-family: 'Droid Arabic Kufi', Arial, Helvetica;
+}
+
+a:link,
+a:hover,
+.FooterAll a:link,
+.FooterAll a:visited,
+.Rights a {
+    text-decoration: none !important;
+}
+
+a.cattitle,
+.FooterAll a:link,
+.FooterAll a:visited {
+    color: #FFF !important;
+}
+
+a:hover,
+.Rights a:hover,
+.FooterAll a:hover,
+.FooterAll a:active,
+.Social a:hover {
+    color: #66aac7;
+}
+
+.signature_div img,
+.post img {
+    max-width: 500px;
+    max-height: 300px;
+    border: 0 solid red;
+}
+
+.postdetails.poster-profile img,
+.postprofile img,
+span.postdetails.poster-profile img {
+    max-height: 200px;
+    border: 5px solid white;
+}
+
+span.postdetails.poster-profile img {
+    max-width: 330px;
+}
+
+tr.post td {
+    text-align: center;
+    font-weight: 700;
+}
+
+.postbody {
+    line-height: 22px;
+}
+
+#right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 18%;
+    float: right;
+}
+
+.FooterAll,
+.FooterRow {
+    background-color: #232323;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.FooterTi {
+    display: block;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.FooterList {
+    list-style: none;
+    margin: 0 0 10px 0;
+    padding-right: 0;
+}
+
+.FooterList li {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.FooterCol {
+    float: right;
+    width: 25%;
+    height: 180px;
+}
+
+.Social {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Social a {
+    padding: 0 10px;
+    font-size: 28px;
+    transition: color 0.3s ease;
+}
+
+#Rights {
+    height: 60px;
+    position: relative;
+    background-color: #232323;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rights {
+    background-color: #F2F2F2;
+    height: 28px;
+    line-height: 28px;
+    width: 60%;
+    text-align: center;
+    border-radius: 12px;
+    color: #232323;
+}
+
+.poster-profile {
+    border-radius: 25px;
+    background-image: url(https://i.servimg.com/u/f78/19/47/70/95/uo_ouo15.jpg);
+    border: 1px dotted #1675bc;
+    border-bottom: 3px solid #1675bc;
+    border-top: 3px solid #1675bc;
+    display: block;
+    font-weight: 700;
+    margin: 7px;
+    padding: 14px;
+}
+
+.quote {
+    max-height: 200px;
+    overflow: auto;
+    direction: ltr;
+    display: block;
+    background: #dffbfb url(https://i.servimg.com/u/f38/18/04/55/46/222210.gif) no-repeat 10px 9px;
+    margin: auto;
+    border: 2px solid #C6C9C9;
+    color: #694040;
+    width: 95%;
+    padding: 20px 8px;
+    border-radius: 14px;
+}
+
+.bodyline {
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+}
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.eot);
+    src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.eot?#iefix) format("embedded-opentype"),
+         url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff2) format("woff2"),
+         url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff) format("woff"),
+         url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.ttf) format("truetype");
+}
+
+strong {
+    font-weight: bold;
+}
+
+.row1 {
+    background-color: #ecf3f7;
+}
+
+hr {
+    border: solid #cadceb 0;
+    border-top: 1px solid #cadceb;
+    height: 0;
+}
+
+.hr {
+    background: url(https://i.servimg.com/u/f44/16/73/90/65/d8b5d910.png) no-repeat top;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding: 0 325px 250px;
+    line-height: normal;
+}
+
+.postdetails.poster-profile img,
+.postprofile img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.topictitle, h1, h2 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #080000;
+}
+
+.forumline {
+    background-color: #fff;
+    border: 0 solid #fff;
+}
+
+.j {
+    display: none;
+}
+
+.alt1 {
+    background-color: #F1F1F1 !important;
+}
+
+.alt2 {
+    background-color: #E1E1E1 !important;
+    padding: 5px;
+}
+
+.tborder {
+    border: 1px solid #E1E1E1 !important;
+}
+
+.navbar {
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.vbmenu_control {
+    background-color: #3F5376;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.vbmenu_control a {
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 0 3px;
+}
+
+.tcat {
+    background-color: #869BBF;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    text-align: right;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.rank-badge {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2D2D2D;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px;
+    width: 130px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    line-height: 1.2;
+    color: #E0E0E0;
+    margin: 5px auto;
+}
+
+.rank-name {
+    color: #C0C0C0;
+}
+
+.rank-badge::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--border-color);
+}
+
+.rank-icon {
+    font-size: 18px;
+    color: var(--border-color);
+    margin-right: 8px;
+}
